@@ -1,0 +1,39 @@
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 170px;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+}
+.texture__options{
+    display: flex;
+    
+}
+.doorOptions{
+    display: flex;
+}
+.texture{
+    border-right: 1px solid grey;
+    padding: 0;
+}
+@media only screen and (max-width: 1200px) {
+    .checkbox{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .texture__options{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    .doorOptions{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    .texture{
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+}

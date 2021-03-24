@@ -1,0 +1,36 @@
+.wrapper__info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+}
+.wrapper__text{
+    padding: 5px 100px;
+    color: rgb(99, 98, 98);
+    font-weight: 600;
+}
+.wrapper__info>h1{
+    color: rgb(43, 42, 42);
+    font-size: 3rem;
+}
+.wrapper__title{
+    color: grey;
+    font-size: 0.8rem;
+}
+.wrapper__pic{
+    width: 100%;
+    object-fit: contain;
+}
+@media only screen and (max-width: 1200px) {
+    .wrapper__info{
+        padding: 0;
+        padding-left: 10px;
+    }
+    .wrapper__pic{
+        height: 150px;
+        object-fit: none;
+    }
+    .wrapper__text{
+        padding:0;
+        margin-bottom: 15px;
+    }
+}

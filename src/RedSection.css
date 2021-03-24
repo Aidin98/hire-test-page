@@ -1,0 +1,37 @@
+.redsection{
+    background: url('https://bitbucket.org/sstojanovic/fetest/raw/80774e9308e47fdcd142102b21d639e227eca9f4/resources/_IMAGES/page-1/04-image.jpg');
+    height: 450px;
+   display: flex;
+   flex-direction: column;
+   place-items: center;
+   padding-top: 20px;
+    
+}
+.redsection__h1{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 4rem;
+}
+.redsection__h3{
+    color: white;
+    font-size: 2rem;
+}
+.redsection__p{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.redsection>button{
+    margin-top: 20px;
+    padding: 7px 70px;
+    color: grey;
+}
+@media only screen and (max-width: 1200px) {
+    .redsection{
+        text-align: center;
+        padding-bottom: 60px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}

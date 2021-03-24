@@ -1,0 +1,41 @@
+.map__location{
+    width: 100%;
+    height: 400px;
+    z-index: 55;
+}
+.map .leaflet-container{
+    height: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+   background: url('https://previews.dropbox.com/p/thumb/ABGxoHJZtVmkcqqo6VY9uM6QActCf1MXOCrfQuLcI9BRHILP-pvWpPH3p-cmpigjYDL27hD2FniJowy4cqeftEIDsVykn_uprPJdfveDtRxRAbilSu2Llgkwi9eWVxbkyK2iOKY4FjMBzlSwv_qublm8NGBd59JLYu8-ji_rmo3H5-scKt7NaeT_JnD-_UJDCCXvlHzWUdvXobrqA6i0Y3PQ86V_3yu5m6r4vZpGnvHjAZF2OAbmlCppYPfm83C97Z0gtMgnhNod0saFdufQvF1iGXa5FGVFRmVhUs_oc8vIT-yatDSRuUCbvHitesoUljS-epWgPbygS2HVW8by2sYmHzhz54Jtu0v5HYt8117jnQ/p.png?fv_content=true&size_mode=5') !important
+    ;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+
+}
+.map__title{
+    margin-left: 360px;
+}
+.map__sub{
+    color: grey;
+}
+.map__h1{
+    color: rgb(51, 50, 50);
+    font-size: 4rem;
+}
+@media only screen and (max-width: 1200px) {
+    .map__title{
+    margin-left: 60px;
+}
+}
+@media only screen and (max-width: 600px){
+      .map__title{
+    margin-left: 0;
+    
+}
+.map__h1{
+    font-size: 3rem;
+}
+}

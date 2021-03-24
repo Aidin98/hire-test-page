@@ -1,0 +1,65 @@
+.heroSection{
+    position: relative;
+    height: 500px;
+    border-bottom: 1px solid red;
+    overflow-x: hidden;
+}
+.heroSection__info{
+    position: absolute;
+    position: 0;
+    right: 100px;
+    top:0;
+    margin-right: auto;
+    width: 35%;
+     background-image: linear-gradient(to right, rgb(243, 243, 243), rgba(253, 252, 252, 0));
+     height: 380px;
+    padding: 60px;
+    
+}
+.heroSection__slider{
+    object-fit: contain;
+}
+.heroSection__title{
+    font-size: 3.2rem;
+    color: black;
+}
+.subtitle1{
+    font-size: 3.2rem !important;
+    color: red;
+}
+.herSection__text{
+    color: rgb(77, 73, 73);
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-right:150px;
+    margin-top: 40px;
+}
+.heroSection__info>button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    width: 200px;
+}
+@media only screen and (max-width: 1200px) {
+    html,body{
+        width: 100%;
+    }
+   .heroSection__info{
+       position: absolute;
+       left: 0;
+       padding: 0;
+       padding-left: 20px;
+       height: 100%;
+       margin: 0;
+       width: 80%;
+   }
+   .herSection__text{
+       padding:0;
+       width: 80%;
+       margin: 0;
+   }
+   .heroSection__title{
+    font-size: 1.5rem;
+   }
+}

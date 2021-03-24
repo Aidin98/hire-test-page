@@ -1,0 +1,113 @@
+.table__buttons{
+    display: flex;
+    
+    margin-top: 35px;
+    
+   
+
+}
+.country__button{
+   
+    display: flex;
+}
+.tip__buttons{
+    
+    display: flex;
+    ;
+    margin-left: 50px;
+}
+.btn{
+    padding:10px 50px;
+    background-color: grey;
+    color: black;
+    margin-right: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-active{
+    padding:10px 50px;
+    background-color: red;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+td{
+    border-bottom: 1px solid rgb(63, 62, 62) !important;
+    padding: 10px 200px;
+    text-align: left;
+    padding-left: 0;
+    color: grey;
+    font-size: 1.2rem;
+   
+}
+th{
+    padding-bottom: 30px;
+    text-align: left;
+    color: rgb(61, 60, 60);
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-bottom: 3px solid rgb(63, 62, 62) !important;
+
+}
+table{
+    padding: 20px;
+   
+}
+tbody{
+    padding: 20px;
+     
+    width: auto;
+    height: auto;
+}
+.tableData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.tableDate__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+.tableDate__info>h1{
+    color: red;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.tableDate__info>h4{
+    color: grey;
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+.tableDate__info>button{
+    background-color: red;
+    color: white;
+    padding: 10px 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    outline: none;
+}
+@media only screen and (max-width: 1100px) {
+td{
+    padding: 10px 0;
+}
+.tip__buttons{
+    margin-left: 10px;
+}
+.btn{
+    padding: 10px 15px;
+}
+}
+@media only screen and (max-width: 600px) {
+   .btn{
+    padding: 10px 0px;
+    margin-right: 5px;
+} 
+}
